@@ -1,8 +1,17 @@
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import FormSearch from "./components/FormSearch";
+
 function App() {
 
   return (
     <>
-     <h1>Hello world</h1>
+      <Header />
+      <h1>Hello world</h1>
+      <main>
+        <FormSearch />
+      </main>
+      <Footer />
     </>
   )
 }
