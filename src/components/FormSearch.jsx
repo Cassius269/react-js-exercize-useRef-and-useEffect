@@ -23,7 +23,7 @@ function FormSearch(){
         e.preventDefault();
         console.log(`${email}`);
         if(isValidEmail(email)){
-            inputEmailRef.current
+            // faire traitement après email valide
         };
     }
 
