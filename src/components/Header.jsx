@@ -9,10 +9,8 @@ function Header(){
         setIsActive(!isActive); // Changer la valeur de l'état et re-render le composant <Header />
     }
 
-
-
     return (
-        <header className="container-fluid border border-2 p-2 d-flex justify-content-between">
+        <header className="container-fluid border border- p-2 d-flex justify-content-between">
             <div className='d-flex align-items-center'>
                 <a href="/"><img className="ms-3" src="https://svgsilh.com/svg/303194.svg" alt="logo" width={30}/></a>
             </div>
