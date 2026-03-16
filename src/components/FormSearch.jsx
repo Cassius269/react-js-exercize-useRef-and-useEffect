@@ -40,12 +40,15 @@ function FormSearch(){
     }
 
     return (
-        <form action="#" method="POST" onSubmit={handleSubmit} style={{maxWidth: 400}} className="m-auto bg-primary bg-opacity-25 rounded-3 p-3">
-            <label htmlFor="q" className="form-label">Recher un utilisateur par son mail</label>
-            <input onBlur={handleBlur} onFocus={handleFocus} onChange={handleChange} ref={inputEmailRef} id="q" type="search" name="q" placeholder="entrer un email" className={`form-control mb-3 ${email === '' ? 'bg-white text-danger' : ''} ${isValidEmail(email) ? "bg-secondary-subtle" : "bg-danger text-white"}`} value={isFocused ? email : ''}/>
-            <i className="text-danger">{(email.length > 4  && email.length <= 50) && isValidEmail(email)  ? 'correct' : (email === '' ? '' : 'incorrect')}</i>
-            <button type="submit" className="btn btn-secondary text-white w-100">Chercher</button>
-        </form>
+        <section>
+            <h2>Exercice 1</h2>
+            <form action="#" method="POST" onSubmit={handleSubmit} style={{maxWidth: 400}} className="m-auto bg-primary bg-opacity-25 rounded-3 p-3">
+                <label htmlFor="q" className="form-label">Recher un utilisateur par son mail</label>
+                <input onBlur={handleBlur} onFocus={handleFocus} onChange={handleChange} ref={inputEmailRef} id="q" type="search" name="q" placeholder="entrer un email" className={`form-control mb-3 ${email === '' ? 'bg-white text-danger' : ''} ${isValidEmail(email) ? "bg-secondary-subtle" : "bg-danger text-white"}`} value={isFocused ? email : ''}/>
+                <i className="text-danger">{(email.length > 4  && email.length <= 50) && isValidEmail(email)  ? 'correct' : (email === '' ? '' : 'incorrect')}</i>
+                <button type="submit" className="btn btn-secondary text-white w-100">Chercher</button>
+            </form>
+        </section>
     )
 }
 
