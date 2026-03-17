@@ -1,702 +1,702 @@
 [
     {
         "id": 1,
-        "nom": "Pommes Golden",
-        "prix": 10.5,
-        "categorie": "alimentaire",
+        "name": "Pommes Golden",
+        "price": 10.5,
+        "category": "alimentaire",
         "stock": 50
     },
     {
         "id": 2,
-        "nom": "AirPods Pro",
-        "prix": 11.0,
-        "categorie": "electronique",
+        "name": "AirPods Pro",
+        "price": 11.0,
+        "category": "electronique",
         "stock": 30
     },
     {
         "id": 3,
-        "nom": "Serviette Éponge",
-        "prix": 12.2,
-        "categorie": "maison",
+        "name": "Serviette Éponge",
+        "price": 12.2,
+        "category": "maison",
         "stock": 15
     },
     {
         "id": 4,
-        "nom": "Nike Running",
-        "prix": 9.8,
-        "categorie": "sport",
+        "name": "Nike Running",
+        "price": 9.8,
+        "category": "sport",
         "stock": 60
     },
     {
         "id": 5,
-        "nom": "Bananes Bio",
-        "prix": 14.5,
-        "categorie": "alimentaire",
+        "name": "Bananes Bio",
+        "price": 14.5,
+        "category": "alimentaire",
         "stock": 0
     },
     {
         "id": 6,
-        "nom": "iPhone 15",
-        "prix": 7.9,
-        "categorie": "electronique",
+        "name": "iPhone 15",
+        "price": 7.9,
+        "category": "electronique",
         "stock": 80
     },
     {
         "id": 7,
-        "nom": "Draps Coton",
-        "prix": 22.1,
-        "categorie": "maison",
+        "name": "Draps Coton",
+        "price": 22.1,
+        "category": "maison",
         "stock": 12
     },
     {
         "id": 8,
-        "nom": "Adidas T-Shirt",
-        "prix": 18.3,
-        "categorie": "sport",
+        "name": "Adidas T-Shirt",
+        "price": 18.3,
+        "category": "sport",
         "stock": 20
     },
     {
         "id": 9,
-        "nom": "Lait Entier",
-        "prix": 5.5,
-        "categorie": "alimentaire",
+        "name": "Lait Entier",
+        "price": 5.5,
+        "category": "alimentaire",
         "stock": 100
     },
     {
         "id": 10,
-        "nom": "Chargeur Anker",
-        "prix": 30.0,
-        "categorie": "electronique",
+        "name": "Chargeur Anker",
+        "price": 30.0,
+        "category": "electronique",
         "stock": 8
     },
     {
         "id": 11,
-        "nom": "Tapis Salle Bain",
-        "prix": 12.0,
-        "categorie": "maison",
+        "name": "Tapis Salle Bain",
+        "price": 12.0,
+        "category": "maison",
         "stock": 55
     },
     {
         "id": 12,
-        "nom": "Balle Fitness",
-        "prix": 45.2,
-        "categorie": "sport",
+        "name": "Balle Fitness",
+        "price": 45.2,
+        "category": "sport",
         "stock": 0
     },
     {
         "id": 13,
-        "nom": "Yaourt Nature",
-        "prix": 8.6,
-        "categorie": "alimentaire",
+        "name": "Yaourt Nature",
+        "price": 8.6,
+        "category": "alimentaire",
         "stock": 40
     },
     {
         "id": 14,
-        "nom": "Earbuds Bluetooth",
-        "prix": 13.4,
-        "categorie": "electronique",
+        "name": "Earbuds Bluetooth",
+        "price": 13.4,
+        "category": "electronique",
         "stock": 70
     },
     {
         "id": 15,
-        "nom": "Rideaux Occultants",
-        "prix": 19.9,
-        "categorie": "maison",
+        "name": "Rideaux Occultants",
+        "price": 19.9,
+        "category": "maison",
         "stock": 18
     },
     {
         "id": 16,
-        "nom": "Tapis Yoga",
-        "prix": 4.9,
-        "categorie": "sport",
+        "name": "Tapis Yoga",
+        "price": 4.9,
+        "category": "sport",
         "stock": 120
     },
     {
         "id": 17,
-        "nom": "Pain Complet",
-        "prix": 27.5,
-        "categorie": "alimentaire",
+        "name": "Pain Complet",
+        "price": 27.5,
+        "category": "alimentaire",
         "stock": 7
     },
     {
         "id": 18,
-        "nom": "Fitness Tracker",
-        "prix": 16.0,
-        "categorie": "electronique",
+        "name": "Fitness Tracker",
+        "price": 16.0,
+        "category": "electronique",
         "stock": 35
     },
     {
         "id": 19,
-        "nom": "Vase Verre",
-        "prix": 6.7,
-        "categorie": "maison",
+        "name": "Vase Verre",
+        "price": 6.7,
+        "category": "maison",
         "stock": 90
     },
     {
         "id": 20,
-        "nom": "Haltères 5kg",
-        "prix": 21.3,
-        "categorie": "sport",
+        "name": "Haltères 5kg",
+        "price": 21.3,
+        "category": "sport",
         "stock": 14
     },
     {
         "id": 21,
-        "nom": "Fromage Emmental",
-        "prix": 10.1,
-        "categorie": "alimentaire",
+        "name": "Fromage Emmental",
+        "price": 10.1,
+        "category": "alimentaire",
         "stock": 65
     },
     {
         "id": 22,
-        "nom": "Câble USB-C",
-        "prix": 39.9,
-        "categorie": "electronique",
+        "name": "Câble USB-C",
+        "price": 39.9,
+        "category": "electronique",
         "stock": 11
     },
     {
         "id": 23,
-        "nom": "Cadre Photo",
-        "prix": 15.8,
-        "categorie": "maison",
+        "name": "Cadre Photo",
+        "price": 15.8,
+        "category": "maison",
         "stock": 22
     },
     {
         "id": 24,
-        "nom": "Corde à Sauter",
-        "prix": 7.2,
-        "categorie": "sport",
+        "name": "Corde à Sauter",
+        "price": 7.2,
+        "category": "sport",
         "stock": 95
     },
     {
         "id": 25,
-        "nom": "Oeufs Bio",
-        "prix": 24.0,
-        "categorie": "alimentaire",
+        "name": "Oeufs Bio",
+        "price": 24.0,
+        "category": "alimentaire",
         "stock": 10
     },
     {
         "id": 26,
-        "nom": "Batterie Externe",
-        "prix": 11.4,
-        "categorie": "electronique",
+        "name": "Batterie Externe",
+        "price": 11.4,
+        "category": "electronique",
         "stock": 45
     },
     {
         "id": 27,
-        "nom": "Coussin Déco",
-        "prix": 55.0,
-        "categorie": "maison",
+        "name": "Coussin Déco",
+        "price": 55.0,
+        "category": "maison",
         "stock": 6
     },
     {
         "id": 28,
-        "nom": "Bouteille Eau",
-        "prix": 17.6,
-        "categorie": "sport",
+        "name": "Bouteille Eau",
+        "price": 17.6,
+        "category": "sport",
         "stock": 19
     },
     {
         "id": 29,
-        "nom": "Tomates Cerises",
-        "prix": 6.0,
-        "categorie": "alimentaire",
+        "name": "Tomates Cerises",
+        "price": 6.0,
+        "category": "alimentaire",
         "stock": 88
     },
     {
         "id": 30,
-        "nom": "Écouteurs Sans Fil",
-        "prix": 29.5,
-        "categorie": "electronique",
+        "name": "Écouteurs Sans Fil",
+        "price": 29.5,
+        "category": "electronique",
         "stock": 13
     },
     {
         "id": 31,
-        "nom": "Lampadaire Design",
-        "prix": 9.9,
-        "categorie": "maison",
+        "name": "Lampadaire Design",
+        "price": 9.9,
+        "category": "maison",
         "stock": 72
     },
     {
         "id": 32,
-        "nom": "Gants Muscu",
-        "prix": 60.3,
-        "categorie": "sport",
+        "name": "Gants Muscu",
+        "price": 60.3,
+        "category": "sport",
         "stock": 5
     },
     {
         "id": 33,
-        "nom": "Pâtes Spaghettis",
-        "prix": 14.7,
-        "categorie": "alimentaire",
+        "name": "Pâtes Spaghettis",
+        "price": 14.7,
+        "category": "alimentaire",
         "stock": 27
     },
     {
         "id": 34,
-        "nom": "Smartwatch",
-        "prix": 8.1,
-        "categorie": "electronique",
+        "name": "Smartwatch",
+        "price": 8.1,
+        "category": "electronique",
         "stock": 91
     },
     {
         "id": 35,
-        "nom": "Miroir Murale",
-        "prix": 26.8,
-        "categorie": "maison",
+        "name": "Miroir Murale",
+        "price": 26.8,
+        "category": "maison",
         "stock": 16
     },
     {
         "id": 36,
-        "nom": "Short Sport",
-        "prix": 10.8,
-        "categorie": "sport",
+        "name": "Short Sport",
+        "price": 10.8,
+        "category": "sport",
         "stock": 58
     },
     {
         "id": 37,
-        "nom": "Riz Basmati",
-        "prix": 42.0,
-        "categorie": "alimentaire",
+        "name": "Riz Basmati",
+        "price": 42.0,
+        "category": "alimentaire",
         "stock": 8
     },
     {
         "id": 38,
-        "nom": "Casque Audio",
-        "prix": 13.9,
-        "categorie": "electronique",
+        "name": "Casque Audio",
+        "price": 13.9,
+        "category": "electronique",
         "stock": 33
     },
     {
         "id": 39,
-        "nom": "Étagère Bois",
-        "prix": 5.2,
-        "categorie": "maison",
+        "name": "Étagère Bois",
+        "price": 5.2,
+        "category": "maison",
         "stock": 110
     },
     {
         "id": 40,
-        "nom": "Chaussures Trail",
-        "prix": 20.7,
-        "categorie": "sport",
+        "name": "Chaussures Trail",
+        "price": 20.7,
+        "category": "sport",
         "stock": 17
     },
     {
         "id": 41,
-        "nom": "Beurre Demi-Sel",
-        "prix": 12.3,
-        "categorie": "alimentaire",
+        "name": "Beurre Demi-Sel",
+        "price": 12.3,
+        "category": "alimentaire",
         "stock": 49
     },
     {
         "id": 42,
-        "nom": "Clavier Mecano",
-        "prix": 33.4,
-        "categorie": "electronique",
+        "name": "Clavier Mecano",
+        "price": 33.4,
+        "category": "electronique",
         "stock": 10
     },
     {
         "id": 43,
-        "nom": "Poubelle Cuisine",
-        "prix": 16.5,
-        "categorie": "maison",
+        "name": "Poubelle Cuisine",
+        "price": 16.5,
+        "category": "maison",
         "stock": 21
     },
     {
         "id": 44,
-        "nom": "Protéines Whey",
-        "prix": 7.4,
-        "categorie": "sport",
+        "name": "Protéines Whey",
+        "price": 7.4,
+        "category": "sport",
         "stock": 83
     },
     {
         "id": 45,
-        "nom": "Jambon Blanc",
-        "prix": 23.6,
-        "categorie": "alimentaire",
+        "name": "Jambon Blanc",
+        "price": 23.6,
+        "category": "alimentaire",
         "stock": 12
     },
     {
         "id": 46,
-        "nom": "Souris Optique",
-        "prix": 9.7,
-        "categorie": "electronique",
+        "name": "Souris Optique",
+        "price": 9.7,
+        "category": "electronique",
         "stock": 66
     },
     {
         "id": 47,
-        "nom": "Planche à Découper",
-        "prix": 48.8,
-        "categorie": "maison",
+        "name": "Planche à Découper",
+        "price": 48.8,
+        "category": "maison",
         "stock": 6
     },
     {
         "id": 48,
-        "nom": "BCAA Citron",
-        "prix": 18.9,
-        "categorie": "sport",
+        "name": "BCAA Citron",
+        "price": 18.9,
+        "category": "sport",
         "stock": 24
     },
     {
         "id": 49,
-        "nom": "Cristaline Eau",
-        "prix": 6.3,
-        "categorie": "alimentaire",
+        "name": "Cristaline Eau",
+        "price": 6.3,
+        "category": "alimentaire",
         "stock": 97
     },
     {
         "id": 50,
-        "nom": "Webcam HD",
-        "prix": 27.1,
-        "categorie": "electronique",
+        "name": "Webcam HD",
+        "price": 27.1,
+        "category": "electronique",
         "stock": 9
     },
     {
         "id": 51,
-        "nom": "Verres à Vin",
-        "prix": 11.6,
-        "categorie": "maison",
+        "name": "Verres à Vin",
+        "price": 11.6,
+        "category": "maison",
         "stock": 52
     },
     {
         "id": 52,
-        "nom": "Créatine Pure",
-        "prix": 37.7,
-        "categorie": "sport",
+        "name": "Créatine Pure",
+        "price": 37.7,
+        "category": "sport",
         "stock": 7
     },
     {
         "id": 53,
-        "nom": "Coca-Cola",
-        "prix": 15.1,
-        "categorie": "alimentaire",
+        "name": "Coca-Cola",
+        "price": 15.1,
+        "category": "alimentaire",
         "stock": 29
     },
     {
         "id": 54,
-        "nom": "Hub USB",
-        "prix": 8.0,
-        "categorie": "electronique",
+        "name": "Hub USB",
+        "price": 8.0,
+        "category": "electronique",
         "stock": 84
     },
     {
         "id": 55,
-        "nom": "Assiettes Plates",
-        "prix": 25.4,
-        "categorie": "maison",
+        "name": "Assiettes Plates",
+        "price": 25.4,
+        "category": "maison",
         "stock": 15
     },
     {
         "id": 56,
-        "nom": "Barre Protéinée",
-        "prix": 10.2,
-        "categorie": "sport",
+        "name": "Barre Protéinée",
+        "price": 10.2,
+        "category": "sport",
         "stock": 63
     },
     {
         "id": 57,
-        "nom": "Nutella",
-        "prix": 41.9,
-        "categorie": "alimentaire",
+        "name": "Nutella",
+        "price": 41.9,
+        "category": "alimentaire",
         "stock": 6
     },
     {
         "id": 58,
-        "nom": "Carte SD 128Go",
-        "prix": 17.3,
-        "categorie": "electronique",
+        "name": "Carte SD 128Go",
+        "price": 17.3,
+        "category": "electronique",
         "stock": 26
     },
     {
         "id": 59,
-        "nom": "Couverts Argent",
-        "prix": 6.9,
-        "categorie": "maison",
+        "name": "Couverts Argent",
+        "price": 6.9,
+        "category": "maison",
         "stock": 92
     },
     {
         "id": 60,
-        "nom": "Shaker Sport",
-        "prix": 28.0,
-        "categorie": "sport",
+        "name": "Shaker Sport",
+        "price": 28.0,
+        "category": "sport",
         "stock": 11
     },
     {
         "id": 61,
-        "nom": "Kinder Bueno",
-        "prix": 12.8,
-        "categorie": "alimentaire",
+        "name": "Kinder Bueno",
+        "price": 12.8,
+        "category": "alimentaire",
         "stock": 57
     },
     {
         "id": 62,
-        "nom": "Powerbank 10000mAh",
-        "prix": 34.6,
-        "categorie": "electronique",
+        "name": "Powerbank 10000mAh",
+        "price": 34.6,
+        "category": "electronique",
         "stock": 9
     },
     {
         "id": 63,
-        "nom": "Torche LED",
-        "prix": 14.2,
-        "categorie": "maison",
+        "name": "Torche LED",
+        "price": 14.2,
+        "category": "maison",
         "stock": 31
     },
     {
         "id": 64,
-        "nom": "Bande Élastique",
-        "prix": 7.1,
-        "categorie": "sport",
+        "name": "Bande Élastique",
+        "price": 7.1,
+        "category": "sport",
         "stock": 96
     },
     {
         "id": 65,
-        "nom": "Biscuits LU",
-        "prix": 22.7,
-        "categorie": "alimentaire",
+        "name": "Biscuits LU",
+        "price": 22.7,
+        "category": "alimentaire",
         "stock": 14
     },
     {
         "id": 66,
-        "nom": "Lampe LED",
-        "prix": 9.5,
-        "categorie": "electronique",
+        "name": "Lampe LED",
+        "price": 9.5,
+        "category": "electronique",
         "stock": 74
     },
     {
         "id": 67,
-        "nom": "Nettoyeur Vapeur",
-        "prix": 52.3,
-        "categorie": "maison",
+        "name": "Nettoyeur Vapeur",
+        "price": 52.3,
+        "category": "maison",
         "stock": 5
     },
     {
         "id": 68,
-        "nom": "Tapis Protection",
-        "prix": 16.7,
-        "categorie": "sport",
+        "name": "Tapis Protection",
+        "price": 16.7,
+        "category": "sport",
         "stock": 28
     },
     {
         "id": 69,
-        "nom": "Confiture Fraise",
-        "prix": 5.8,
-        "categorie": "alimentaire",
+        "name": "Confiture Fraise",
+        "price": 5.8,
+        "category": "alimentaire",
         "stock": 102
     },
     {
         "id": 70,
-        "nom": "Ventilateur USB",
-        "prix": 24.9,
-        "categorie": "electronique",
+        "name": "Ventilateur USB",
+        "price": 24.9,
+        "category": "electronique",
         "stock": 13
     },
     {
         "id": 71,
-        "nom": "Aspirateur Sans Fil",
-        "prix": 11.1,
-        "categorie": "maison",
+        "name": "Aspirateur Sans Fil",
+        "price": 11.1,
+        "category": "maison",
         "stock": 61
     },
     {
         "id": 72,
-        "nom": "Sac Gym",
-        "prix": 36.5,
-        "categorie": "sport",
+        "name": "Sac Gym",
+        "price": 36.5,
+        "category": "sport",
         "stock": 8
     },
     {
         "id": 73,
-        "nom": "Huile Olive",
-        "prix": 15.6,
-        "categorie": "alimentaire",
+        "name": "Huile Olive",
+        "price": 15.6,
+        "category": "alimentaire",
         "stock": 34
     },
     {
         "id": 74,
-        "nom": "Adaptateur Prise",
-        "prix": 7.7,
-        "categorie": "electronique",
+        "name": "Adaptateur Prise",
+        "price": 7.7,
+        "category": "electronique",
         "stock": 89
     },
     {
         "id": 75,
-        "nom": "Fer Repasser",
-        "prix": 23.3,
-        "categorie": "maison",
+        "name": "Fer Repasser",
+        "price": 23.3,
+        "category": "maison",
         "stock": 16
     },
     {
         "id": 76,
-        "nom": "Bouchons Oreilles",
-        "prix": 10.4,
-        "categorie": "sport",
+        "name": "Bouchons Oreilles",
+        "price": 10.4,
+        "category": "sport",
         "stock": 54
     },
     {
         "id": 77,
-        "nom": "Sucre Cassonade",
-        "prix": 44.2,
-        "categorie": "alimentaire",
+        "name": "Sucre Cassonade",
+        "price": 44.2,
+        "category": "alimentaire",
         "stock": 7
     },
     {
         "id": 78,
-        "nom": "Cordon HDMI",
-        "prix": 18.1,
-        "categorie": "electronique",
+        "name": "Cordon HDMI",
+        "price": 18.1,
+        "category": "electronique",
         "stock": 23
     },
     {
         "id": 79,
-        "nom": "Lessive Éco",
-        "prix": 6.4,
-        "categorie": "maison",
+        "name": "Lessive Éco",
+        "price": 6.4,
+        "category": "maison",
         "stock": 93
     },
     {
         "id": 80,
-        "nom": "Serviette Microfibre",
-        "prix": 26.2,
-        "categorie": "sport",
+        "name": "Serviette Microfibre",
+        "price": 26.2,
+        "category": "sport",
         "stock": 12
     },
     {
         "id": 81,
-        "nom": "Farine T55",
-        "prix": 12.6,
-        "categorie": "alimentaire",
+        "name": "Farine T55",
+        "price": 12.6,
+        "category": "alimentaire",
         "stock": 59
     },
     {
         "id": 82,
-        "nom": "Enceinte Bluetooth",
-        "prix": 38.1,
-        "categorie": "electronique",
+        "name": "Enceinte Bluetooth",
+        "price": 38.1,
+        "category": "electronique",
         "stock": 6
     },
     {
         "id": 83,
-        "nom": "Savon Liquide",
-        "prix": 14.9,
-        "categorie": "maison",
+        "name": "Savon Liquide",
+        "price": 14.9,
+        "category": "maison",
         "stock": 30
     },
     {
         "id": 84,
-        "nom": "Lunettes Soleil",
-        "prix": 7.0,
-        "categorie": "sport",
+        "name": "Lunettes Soleil",
+        "price": 7.0,
+        "category": "sport",
         "stock": 87
     },
     {
         "id": 85,
-        "nom": "Sel Fin",
-        "prix": 21.8,
-        "categorie": "alimentaire",
+        "name": "Sel Fin",
+        "price": 21.8,
+        "category": "alimentaire",
         "stock": 14
     },
     {
         "id": 86,
-        "nom": "Tablette Android",
-        "prix": 9.3,
-        "categorie": "electronique",
+        "name": "Tablette Android",
+        "price": 9.3,
+        "category": "electronique",
         "stock": 73
     },
     {
         "id": 87,
-        "nom": "Papier Toilette",
-        "prix": 47.0,
-        "categorie": "maison",
+        "name": "Papier Toilette",
+        "price": 47.0,
+        "category": "maison",
         "stock": 5
     },
     {
         "id": 88,
-        "nom": "Casquette Sport",
-        "prix": 16.2,
-        "categorie": "sport",
+        "name": "Casquette Sport",
+        "price": 16.2,
+        "category": "sport",
         "stock": 25
     },
     {
         "id": 89,
-        "nom": "Poivrons Rouges",
-        "prix": 6.1,
-        "categorie": "alimentaire",
+        "name": "Poivrons Rouges",
+        "price": 6.1,
+        "category": "alimentaire",
         "stock": 98
     },
     {
         "id": 90,
-        "nom": "Drone Mini",
-        "prix": 28.7,
-        "categorie": "electronique",
+        "name": "Drone Mini",
+        "price": 28.7,
+        "category": "electronique",
         "stock": 10
     },
     {
         "id": 91,
-        "nom": "Ampoules LED",
-        "prix": 11.7,
-        "categorie": "maison",
+        "name": "Ampoules LED",
+        "price": 11.7,
+        "category": "maison",
         "stock": 64
     },
     {
         "id": 92,
-        "nom": "Chaussettes Running",
-        "prix": 35.0,
-        "categorie": "sport",
+        "name": "Chaussettes Running",
+        "price": 35.0,
+        "category": "sport",
         "stock": 9
     },
     {
         "id": 93,
-        "nom": "Salade Laitue",
-        "prix": 15.3,
-        "categorie": "alimentaire",
+        "name": "Salade Laitue",
+        "price": 15.3,
+        "category": "alimentaire",
         "stock": 27
     },
     {
         "id": 94,
-        "nom": "Caméra GoPro",
-        "prix": 8.4,
-        "categorie": "electronique",
+        "name": "Caméra GoPro",
+        "price": 8.4,
+        "category": "electronique",
         "stock": 90
     },
     {
         "id": 95,
-        "nom": "Horloge Murale",
-        "prix": 24.6,
-        "categorie": "maison",
+        "name": "Horloge Murale",
+        "price": 24.6,
+        "category": "maison",
         "stock": 13
     },
     {
         "id": 96,
-        "nom": "Brassière Sport",
-        "prix": 10.9,
-        "categorie": "sport",
+        "name": "Brassière Sport",
+        "price": 10.9,
+        "category": "sport",
         "stock": 56
     },
     {
         "id": 97,
-        "nom": "Carottes Bio",
-        "prix": 43.5,
-        "categorie": "alimentaire",
+        "name": "Carottes Bio",
+        "price": 43.5,
+        "category": "alimentaire",
         "stock": 6
     },
     {
         "id": 98,
-        "nom": "Routeur WiFi",
-        "prix": 17.8,
-        "categorie": "electronique",
+        "name": "Routeur WiFi",
+        "price": 17.8,
+        "category": "electronique",
         "stock": 32
     },
     {
         "id": 99,
-        "nom": "Panier Linge",
-        "prix": 6.6,
-        "categorie": "maison",
+        "name": "Panier Linge",
+        "price": 6.6,
+        "category": "maison",
         "stock": 94
     },
     {
         "id": 100,
-        "nom": "Genouillères",
-        "prix": 29.9,
-        "categorie": "sport",
+        "name": "Genouillères",
+        "price": 29.9,
+        "category": "sport",
         "stock": 11
     }
 ]
