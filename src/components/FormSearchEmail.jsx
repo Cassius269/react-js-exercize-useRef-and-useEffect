@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 
-function FormSearch(){
+function FormSearchEmail(){
     // Déclaration de l'état de l'email entré par l'utilisateur
     const [email, setEmail] = useState('');
     const [isFocused, setIsFocused] = useState(false);
@@ -41,7 +41,7 @@ function FormSearch(){
 
     return (
         <section>
-            <h2>Exercice 1</h2>
+            <h2 className='text-decoration-underline'>Exercice 1</h2>
             <form action="#" method="POST" onSubmit={handleSubmit} style={{maxWidth: 400}} className="m-auto bg-primary bg-opacity-25 rounded-3 p-3">
                 <label htmlFor="q" className="form-label">Recher un utilisateur par son mail</label>
                 <input onBlur={handleBlur} onFocus={handleFocus} onChange={handleChange} ref={inputEmailRef} id="q" type="search" name="q" placeholder="entrer un email" className={`form-control mb-3 ${email === '' ? 'bg-white text-danger' : ''} ${isValidEmail(email) ? "bg-secondary-subtle" : "bg-danger text-white"}`} value={isFocused ? email : ''}/>
@@ -57,4 +57,4 @@ function isValidEmail(email){
     return regexEmail.test(email); 
 }
 
-export default FormSearch;
+export default FormSearchEmail;

@@ -1,7 +1,7 @@
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import FormSearch from "./components/FormSearch";
 import ProductList from './components/ProductList';
+import FormSearchEmail from "./components/FormSearchEmail";
 
 function App() {
 
@@ -10,7 +10,7 @@ function App() {
       <Header />
       <h1>Exercices sur l'utilisation de useRef, useEffect, useMemo et useCallBack</h1>
       <main className="container">
-        <FormSearch />
+        <FormSearchEmail />
         <ProductList />
       </main>
       <Footer />
