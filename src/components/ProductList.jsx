@@ -1,4 +1,4 @@
-import { useCallback, useMemo, useReducer } from 'react';
+import { useCallback, useReducer } from 'react';
 import products from '../assets/data/products.json';
 import { collect } from 'collect.js';
 import Results from './Results';
@@ -52,18 +52,12 @@ function Products(){
             <h2 className='text-decoration-underline'>Exercice 2</h2>
             <p>Les produits</p>
             <FormSearchProduct search={search} />
-            {isEqual(state.results, collect([])) ? '' : (<h4>{state.results?.count() > 0 ? `${state.results?.count() } résultats` : 'O résultat'}</h4>)}
+            {state.results.isEmpty() ? '' : (<h4>{state.results?.count() > 0 ? `${state.results?.count() } résultats` : 'O résultat'}</h4>)}
             <FilterProducts filter={filter} />
             <Results results={state.results} page={state.page} />
             <Pages results={state.results} choicePage={choicePage} currentPage={state.page} />
         </section>
     )
-}
-
-function isEqual(tableau1, tableau2) {
-  if (tableau1.length !== tableau2.length) return false;
-
-  return JSON.stringify(tableau1) === JSON.stringify(tableau2);
 }
 
 export default Products;

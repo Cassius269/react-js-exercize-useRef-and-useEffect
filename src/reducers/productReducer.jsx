@@ -1,4 +1,8 @@
 import { collect } from "collect.js";
+      // Prépare le filtre par nom en chargant la fonction de filtre une seule fois
+            collect().macro('intlCollator', function intlCollator(lang, key) {
+                    return this.sort((a, b) => new Intl.Collator(lang).compare(a[key], b[key]));
+            });
 
 function productReducer(state, action){
     switch(action.type){
@@ -23,11 +27,6 @@ function productReducer(state, action){
         case 'FILTER_NAME':
             console.log('filtre nom cliqué');
             console.log(collect(state.results).sortBy('name').filter(p => p.stock > 0));
-           
-            // Prépare le tri
-            collect().macro('intlCollator', function intlCollator(lang, key) {
-                    return this.sort((a, b) => new Intl.Collator(lang).compare(a[key], b[key]));
-            });
 
             return {
             // état à retourner
