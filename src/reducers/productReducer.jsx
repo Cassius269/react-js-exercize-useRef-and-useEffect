@@ -8,12 +8,13 @@ function productReducer(state, action){
             return {
                 // état à retourner
                 ...state, // conserver l'état existant
-                results: state.products.filter(p => p.name.toLowerCase().includes((action.q).toLowerCase()) && p.stock > 0).all()
+                results: collect(state.products).filter(p => p.name.toLowerCase().includes((action.q).toLowerCase()) && p.stock > 0)
             }
         case 'FILTER_PRICE':
             console.log('filtre prix cliqué');
             console.log('état après filtre prix', collect(state.results).sortBy('price').filter(p => p.stock > 0));
-        return {
+
+            return {
             // état à retourner
             ...state, 
             results: collect(state.results).sortBy('price').filter(p => p.stock > 0)

@@ -1,18 +1,21 @@
 import collect from "collect.js";
+import { memo } from "react";
 
 function Pages({results, choicePage, currentPage}){
+    const resultsPerPage = 10;
+
     console.log('résultats paginés', results);
     
     const handleClick = (e) => {
         console.log("page", e.target.textContent);
-        console.log('pagination', collect(results).forPage((e.target.textContent)*1, 10));
+        console.log('pagination page', e.target.textContent, collect(results).forPage((e.target.textContent)*1, 10));
         choicePage((e.target.textContent)*1);
     }
 
     return (
-            <ul className='d-flex gap-5'>
+            <ul className='d-flex justify-content-center gap-5 mt-5'>
                 {Array.from(
-                    { length: Math.ceil(collect(results).count() / 10) }, 
+                    { length: Math.ceil(collect(results).count() / resultsPerPage) }, 
                         (_, i) => i + 1).map((pageNumber) => (
                             <li
                                 key={pageNumber}
@@ -36,4 +39,4 @@ function Pages({results, choicePage, currentPage}){
     )
 }
 
-export default Pages;
+export default memo(Pages);

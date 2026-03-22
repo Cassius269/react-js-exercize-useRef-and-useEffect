@@ -1,4 +1,4 @@
-import { useReducer } from 'react';
+import { useCallback, useMemo, useReducer } from 'react';
 import products from '../assets/data/products.json';
 import { collect } from 'collect.js';
 import Results from './Results';
@@ -14,49 +14,45 @@ function Products(){
         q: '',
         results: collect([]), 
         filter: '',
-        products: collect([...products]),
+        products:  collect([...products]),
         page: 1 // par défaut page 1
     }
-    );    
- 
-    // Copier les produits sous forme de collection de produit(s)
-    const productsCopy = collect([...products]);
+    );  
 
-    console.log(productsCopy);
 
     // Définir les actions du reducer : search avec argument le produit à chercher, filter avec argument le type de filtre
-    const search = (q) => {
+    const search = useCallback((q) => {
         dispatch(
             {
                 type: 'SEARCH',
                 q // terme de produit à chercher
             }
         )
-    }
+    }, []);
 
-    const filter = (typeFilter) => {
+    const filter = useCallback( (typeFilter) => {
         dispatch(
             {
                 type: `FILTER_${typeFilter.toUpperCase()}`,
             }
         )
-    }
+    }, [])
 
-    const choicePage = (number) => {
+    const choicePage = useCallback((number) => {
         dispatch(
             {
                 type: 'CHOICE_PAGE',
                 page: number
             }
         )
-    }
+    }, []);
 
     return (
         <section className='mt-5'>
             <h2 className='text-decoration-underline'>Exercice 2</h2>
             <p>Les produits</p>
             <FormSearchProduct search={search} />
-            {isEqual(state.results, []) ? '' : (<h4>{state.results?.length > 0 ? `${state.results?.length } résultats` : 'O résultat'}</h4>)}
+            {isEqual(state.results, collect([])) ? '' : (<h4>{state.results?.count() > 0 ? `${state.results?.count() } résultats` : 'O résultat'}</h4>)}
             <FilterProducts filter={filter} />
             <Results results={state.results} page={state.page} />
             <Pages results={state.results} choicePage={choicePage} currentPage={state.page} />

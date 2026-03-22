@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { memo, useCallback, useRef } from "react";
 
 function FilterProducts({filter}){
         // Les réferences
@@ -7,26 +7,26 @@ function FilterProducts({filter}){
         const refInputStock = useRef(null);
 
 
-        const handleSubmitFilter = (e) => {
+        const handleSubmitFilter = useCallback((e) => {
         e.preventDefault();
 
 
-        if(refInputPrice.current.checked){
+        if(refInputPrice.current?.checked){
             console.log("input prix checked");
             filter('price')
         }
 
-        if(refInputName.current.checked){
+        if(refInputName.current?.checked){
             console.log("input name checked");
             filter('name')
         }
 
-        if(refInputStock.current.checked){
+        if(refInputStock.current?.checked){
             console.log("input stock checked");
             filter('stock')
         }
 
-    }
+    },[filter]);
 
     return (
                 <form action="" method='POST' onSubmit={handleSubmitFilter} className="mb-5">
@@ -41,7 +41,7 @@ function FilterProducts({filter}){
                         <label htmlFor="name">nom</label>
                     </div>
                     <div>
-                        <input ref={refInputStock} type="checkbox" id="name" name="sortBy" value="stock" />
+                        <input ref={refInputStock} type="checkbox" id="stock" name="sortBy" value="stock" />
                         <label htmlFor="stock">stock</label>
                     </div>
                 </fieldset>      
@@ -50,4 +50,4 @@ function FilterProducts({filter}){
     )
 }
 
-export default FilterProducts;
+export default memo(FilterProducts);
